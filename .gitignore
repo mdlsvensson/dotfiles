@@ -11,6 +11,7 @@ go
 .owncloudsync.log
 .Xauthority
 .xsession-errors
+.xsession-errors.old
 .config/dconf
 .config/GitHub Desktop
 .config/libfm

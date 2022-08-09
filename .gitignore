@@ -1,0 +1,28 @@
+.cache
+.local
+.mozilla
+.pki
+Downloads
+go
+.bash_history
+.bash_logout
+.bash_profile
+.dmrc
+.owncloudsync.log
+.Xauthority
+.xsession-errors
+.config/dconf
+.config/GitHub Desktop
+.config/libfm
+.config/Nextcloud
+.config/pulse
+.config/sublime-text/Lib
+.config/sublime-text/Local
+.config/sublime-text/Log
+.config/sublime-text/Installed Packages
+.config/systemd
+.config/yay
+.config/pavucontrol.ini
+.config/user-dirs.locale
+.config/QtProject.conf
+.gitconfig

@@ -26,5 +26,7 @@ go
 .config/pavucontrol.ini
 .config/user-dirs.locale
 .config/QtProject.conf
+.config/pcmanfm/default/pcmanfm.conf
 .gitconfig
 Nextcloud
+

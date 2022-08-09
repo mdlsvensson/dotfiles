@@ -15,6 +15,7 @@ go
 .Xauthority
 .xsession-errors
 .xsession-errors.old
+.config/godot/projects
 .config/dconf
 .config/GitHub Desktop
 .config/libfm

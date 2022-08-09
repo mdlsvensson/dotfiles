@@ -4,6 +4,9 @@
 .pki
 Downloads
 go
+.npm
+.vscode
+.lesshst
 .bash_history
 .bash_logout
 .bash_profile
@@ -17,6 +20,7 @@ go
 .config/libfm
 .config/Nextcloud
 .config/pulse
+.config/Code
 .config/sublime-text/Lib
 .config/sublime-text/Local
 .config/sublime-text/Log
@@ -29,4 +33,3 @@ go
 .config/pcmanfm
 .gitconfig
 Nextcloud
-

@@ -1,7 +1,18 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Package Control"
+		"A File Icon",
+		"ayu",
+		"ESLint",
+		"INI",
+		"Markdown Extended",
+		"Package Control",
+		"Svelte",
+		"Tailwind CSS",
+		"TOML",
 	],
 }

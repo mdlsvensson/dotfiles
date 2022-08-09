@@ -1,5 +1,9 @@
 [Added Associations]
 application/octet-stream=sublime_text.desktop;
+text/x-lua=sublime_text.desktop;
+text/plain=sublime_text.desktop;
 
 [Default Applications]
 application/octet-stream=sublime_text.desktop
+text/x-lua=sublime_text.desktop
+text/plain=sublime_text.desktop

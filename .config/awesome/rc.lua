@@ -64,13 +64,13 @@ awful.layout.layouts = {
     awful.layout.suit.tile,
     awful.layout.suit.tile.left,
     awful.layout.suit.fair,
+    awful.layout.suit.fair.horizontal,
     awful.layout.suit.max,
     awful.layout.suit.floating,
     -- awful.layout.suit.corner.nw,
     -- awful.layout.suit.magnifier,
     -- awful.layout.suit.spiral,
     -- awful.layout.suit.spiral.dwindle,
-    -- awful.layout.suit.fair.horizontal,
     -- awful.layout.suit.tile.bottom,
     -- awful.layout.suit.tile.top,
     -- awful.layout.suit.max.fullscreen,
@@ -169,7 +169,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "main", "web", "code", "git", "godot", "project", "game", "system", "term" }, s, awful.layout.layouts[1])
+    awful.tag({ "main", "godot", "code", "git", "art", "project", "game", "system", "term" }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -583,3 +583,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("nextcloud")
 awful.spawn.with_shell("~/.screenlayout/2.sh")
+awful.spawn.with_shell("alacritty -e yay -Syu")

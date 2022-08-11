@@ -11,24 +11,26 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "sans 8"
+theme.font          = "Roboto 10"
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
+theme.bg_normal     = "#2A2F3A"
+theme.bg_focus      = theme.bg_normal
+theme.bg_urgent     = "#B10F2E"
+theme.bg_minimize   = "#353A45"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#ffffff"
-theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
+theme.fg_normal     = "#EAE8FF"
+theme.fg_focus      = "#FFAD66"
+theme.fg_urgent     = "#1F2430"
+theme.fg_minimize   = "#FDFDFF"
 
-theme.useless_gap   = dpi(0)
-theme.border_width  = dpi(1)
-theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.useless_gap   = dpi(2)
+theme.border_width  = dpi(2)
+theme.border_normal = theme.bg_normal
+theme.border_focus  = "#353A45"
 theme.border_marked = "#91231c"
+
+theme.prompt_bg     = "#B10F2E"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -124,7 +126,7 @@ theme.awesome_icon = theme_assets.awesome_icon(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = nil
+theme.icon_theme = '/usr/share/icons/Papirus-Dark'
 
 return theme
 

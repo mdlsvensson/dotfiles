@@ -34,5 +34,6 @@ go
 .config/pcmanfm
 .config/GIMP
 .config/gtk-2.0
+.config/Bitwarden
 .gitconfig
 Nextcloud

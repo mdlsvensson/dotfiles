@@ -285,7 +285,9 @@ globalkeys = gears.table.join(
 
     -- MENU
     awful.key({ modkey },            "a",     function () awful.util.spawn("rofi -show drun -show-icons") end,
-              {description = "[run rofi]", group = "MENU"}),
+              {description = "[rofi drun]", group = "MENU"}),
+    awful.key({ modkey, "Shift" },            "a",     function () awful.util.spawn("rofi -show run -show-icons") end,
+              {description = "[rofi run]", group = "MENU"}),
 
     -- MOVE
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,

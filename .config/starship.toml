@@ -4,9 +4,21 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
-# Replace the "❯" symbol in the prompt with "➜"
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+[character]
+success_symbol = "[>](bold black)"
+error_symbol = "[x](bold red)"
+
+[directory]
+style = "bold black"
+
+[git_branch]
+style = "bold #C49BBB"
+
+[git_status]
+style = "bold yellow"
+
+[nodejs]
+style = "bold green"
 
 # Disable the package module, hiding it from the prompt completely
 [package]

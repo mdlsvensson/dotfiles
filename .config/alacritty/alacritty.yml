@@ -190,8 +190,8 @@ font:
 
 colors:
   primary:
-    background: '#140011'
-    foreground: '#F4EBE8'
+    background: '#0E000C'
+    foreground: '#EFE1ED'
     bright_foreground: '#FFFFFF'
   cursor:
     text: CellBackground
@@ -223,23 +223,23 @@ colors:
     text: CellForeground
     background: '#353944'
   normal:
-    black: '#1F2430'
-    red: '#D16666'
-    green: '#26C485'
-    yellow: '#F4D58D'
-    blue: '#5C9EAD'
-    magenta: '#EBBAB9'
-    cyan: '#1EA28D'
-    white: '#EAEAEB'
+    black: '#4F6367'
+    red: '#DA2C38'
+    green: '#57A773'
+    yellow: '#CDC392'
+    blue: '#9ED0E6'
+    magenta: '#C49BBB'
+    cyan: '#E3B5A4'
+    white: '#F5E9E2'
   bright:
-    black: '#5E746E'
-    red: '#D87D7D'
-    green: '#47CD97'
+    black: '#697A7E'
+    red: '#E04C56'
+    green: '#43856E'
     yellow: '#F6DB9E'
-    blue: '#74ADB9'
-    magenta: '#EEC4C4'
-    cyan: '#40B09E'
-    white: '#ffffff'
+    blue: '#FCD262'
+    magenta: '#E7C0B2'
+    cyan: '#E7C0B2'
+    white: '#FFFFFF'
     
 # Bell
 #

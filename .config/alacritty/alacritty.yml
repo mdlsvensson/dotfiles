@@ -192,7 +192,7 @@ colors:
   primary:
     background: '#0E000C'
     foreground: '#EFE1ED'
-    bright_foreground: '#FFFFFF'
+    bright_foreground: '#F6EFF5'
   cursor:
     text: CellBackground
     cursor: CellForeground
@@ -221,7 +221,7 @@ colors:
     background: None
   selection:
     text: CellForeground
-    background: '#353944'
+    background: '#211920'
   normal:
     black: '#4F6367'
     red: '#DA2C38'

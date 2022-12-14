@@ -236,8 +236,8 @@ globalkeys = gears.table.join(
               {description = "[launch firefox]", group = "APPLICATIONS"}),
     awful.key({ modkey },            "f",     function () awful.spawn("pcmanfm") end,
               {description = "[launch pcmanfm]", group = "APPLICATIONS"}),
-    awful.key({ modkey },            "n",     function () awful.spawn("alacritty -e nnn") end,
-              {description = "[launch nnn]", group = "APPLICATIONS"}),
+    awful.key({ modkey },            "l",     function () awful.spawn("alacritty -e lazygit") end,
+              {description = "[launch lazygit]", group = "APPLICATIONS"}),
 
     -- FOCUS
     awful.key({ modkey,           }, "j",
@@ -324,7 +324,7 @@ globalkeys = gears.table.join(
               {description="[show keybinds]", group="WM"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "[reload]", group = "WM"}),
-    awful.key({ modkey, "Shift", "Control"   }, "q", awesome.quit,
+    awful.key({ modkey, "Shift", "Control"   }, "c", awesome.quit,
               {description = "[quit]", group = "WM"}),
 
     awful.key({ modkey, "Control" }, "n",
@@ -358,7 +358,7 @@ clientkeys = gears.table.join(
             c:raise()
         end,
         {description = "[toggle fullscreen]", group = "WINDOW"}),
-    awful.key({ modkey,           }, "q",      function (c) c:kill()                         end,
+    awful.key({ modkey,           }, "c",      function (c) c:kill()                         end,
               {description = "[close]", group = "WINDOW"}),
     awful.key({ modkey            }, "space",  awful.client.floating.toggle                     ,
               {description = "[toggle floating]", group = "WINDOW"}),
@@ -585,4 +585,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("nextcloud")
 awful.spawn.with_shell("~/.screenlayout/2.sh")
-awful.spawn.with_shell("alacritty -e yay -Syu")
+

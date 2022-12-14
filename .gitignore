@@ -6,7 +6,6 @@
 !.config/starship.toml
 !.config/user_dirs.dirs
 !.config/mimeapps.list
-!.config/sublime-text/Packages/User
 !.config/redshift
 !.config/picom
 !.config/pcmanfm
@@ -15,7 +14,7 @@
 !.config/networkmanager-dmenu
 !.config/neofetch
 !.config/gtk-3.0
-!.config/godot
 !.config/awesome
 !.config/autostart
 !.config/alacritty
+!.config/libfm
